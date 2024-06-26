@@ -9,6 +9,7 @@ FrontEnd: react,
 Backend:Express,
 DB:mySQL.
 Additional:
+phpmyadmin,
 axios,
 body-parser,
 cors,
