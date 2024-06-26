@@ -1,0 +1,186 @@
+body {
+  background-color: #F9F6EE;
+  margin: 10px 100px;
+  font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@media (max-width: 800px) {
+  body{
+    margin: 5px;
+  }
+}
+
+
+.site-wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addRent-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #c5bfbf;
+  padding: 10px;
+  border: 2px dashed black ;
+  border-radius: 4px;
+}
+
+.addRent-wrapper div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.addRent-wrapper p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.addRent-wrapper input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.submit-button {
+  padding: 11px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.submit-button:hover {
+  background-color: darkgreen;
+  transition: 0.4s;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+.apartmentItem {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.innerContainer input{
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.buttons-container {
+  margin-left: auto;
+}
+
+@media (max-width: 600px) {
+  .buttons-container {
+    margin-left:10px;
+  }
+}
+
+.text {
+  margin: 10px 0 10px;
+  font-size: 16px;
+}
+
+.closeButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin-left: 20px;
+
+}
+.closeButton:hover {
+  background-color: #d32f2f;
+  transition: 0.4s;
+}
+
+.rentButton {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-left: 10px;
+}
+.rentButton:hover {
+  background-color: darkgreen;
+  transition: 0.4s;
+}
+
+.update-icon{
+  margin-left: 20px;
+  color: #165664;
+  cursor: pointer;
+  transform: scale(2.4);
+}
+.update-icon:hover {
+  color: #0f3944;
+  transition: 0.4s;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+.currentRentItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.details span {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.details .text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: #333;
+}
+
+.details .price {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+
