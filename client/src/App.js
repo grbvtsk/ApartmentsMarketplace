@@ -39,7 +39,7 @@ function App(){
             beds:inputBeds.current.value,
             rentPrice:inputRentPrice.current.value
         }
-        if (!newApartment.id || !newApartment.title || !newApartment.days
+        if (!newApartment.title || !newApartment.days
         || !newApartment.beds || !newApartment.rentPrice){
             window.alert("ERROR. Enter correct data of apartment");
             return
